@@ -1,0 +1,9 @@
+[gpg]
+	format = "openpgp"
+
+[gpg "openpgp"]
+	program = "/nix/store/wx7vk8babxkgy813r70yc67vcwnmagbx-gnupg-2.4.9/bin/gpg"
+
+[user]
+	email = "duc107243@donga.edu.vn"
+	name = "Hinn"
