@@ -2,6 +2,7 @@
 !/.zshrc
 !/.bashrc
 !/.gitignore
+!/README.md
 !/.config/
 /.config/*
 !/.config/nvim/
