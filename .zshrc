@@ -48,7 +48,7 @@ alias -- c=clear
 alias -- cleanup='sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null; sudo pacman -Sc --noconfirm; [ -x /usr/bin/flatpak ] && flatpak uninstall --unused -y; sudo journalctl --vacuum-time=3d'
 alias -- grep='grep --color=auto'
 alias -- jctl='journalctl -p 3 -xb'
-alias -- la='eza -a --color=always --group-directories-first --icons'
+alias -- la='eza -aT --level 2 --color=always --group-directories-first --icons'
 alias -- ll='eza -l --color=always --group-directories-first --icons'
 alias -- ls='eza -al --color=always --group-directories-first --icons'
 alias -- lt='eza -aT --color=always --group-directories-first --icons'
