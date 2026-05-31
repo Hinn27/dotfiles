@@ -10,6 +10,7 @@
 !/.config/starship.toml
 !/.config/fastfetch/
 !/.config/git/
+!/.config/mpv/
 **/.DS_Store
 **/node_modules/
 **/*.tmp
