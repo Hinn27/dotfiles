@@ -1,0 +1,15 @@
+/*
+!/.zshrc
+!/.bashrc
+!/.gitignore
+!/.config/
+/.config/*
+!/.config/nvim/
+!/.config/kitty/
+!/.config/niri/
+!/.config/starship.toml
+!/.config/fastfetch/
+!/.config/git/
+**/.DS_Store
+**/node_modules/
+**/*.tmp
