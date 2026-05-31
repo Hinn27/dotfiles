@@ -1,6 +1,8 @@
 /*
 !/.zshrc
 !/.bashrc
+!/.bash_profile
+!/.zprofile
 !/.gitignore
 !/README.md
 !/.config/
