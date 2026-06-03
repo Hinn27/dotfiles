@@ -25,3 +25,225 @@ require("lazy").setup("plugins")
 pcall(function()
   require("matugen").setup()
 end)
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end
+
+local ok, matugen = pcall(require, 'matugen')
+if ok then matugen.setup() end

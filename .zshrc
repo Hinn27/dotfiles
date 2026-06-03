@@ -40,12 +40,18 @@ if [[ $TERM != "dumb" ]]; then
   fi
 fi
 
+# Zoxide
+if command -v zoxide >/dev/null; then
+  eval "$(zoxide init zsh)"
+  alias cd="z"
+fi
+
 # Aliases
 alias -- ..='cd ..'
 alias -- ...='cd ../..'
 alias -- ....='cd ../../../..'
 alias -- c=clear
-alias -- cleanup='sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null; sudo pacman -Sc --noconfirm; [ -x /usr/bin/flatpak ] && flatpak uninstall --unused -y; sudo journalctl --vacuum-time=3d'
+alias -- cleanup='sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null; sudo pacman -Sc --noconfirm; [ -x /usr/bin/flatpak ] && flatpak uninstall --unused -y; sudo journalctl --vacuum-time=3d; rm -rf ~/.cache/noctalia-qs'
 alias -- grep='grep --color=auto'
 alias -- jctl='journalctl -p 3 -xb'
 alias -- la='eza -a --color=always --group-directories-first --icons'
@@ -53,7 +59,7 @@ alias -- ll='eza -l --color=always --group-directories-first --icons'
 alias -- ls='eza -al --color=always --group-directories-first --icons'
 alias -- lt='eza -aT --color=always --group-directories-first --icons'
 alias -- mirror='sudo cachyos-rate-mirrors'
-alias -- update='sudo pacman -Syu'
+alias -- update='paru -Syu; [ -x /usr/bin/flatpak ] && flatpak update -y'
 alias -- v=nvim
 
 # Dotfiles management alias

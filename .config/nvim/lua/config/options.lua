@@ -17,6 +17,7 @@ opt.scrolloff = 8           -- Keep at least 8 lines above/below cursor
 opt.updatetime = 50         -- Faster completion
 opt.timeoutlen = 300        -- Faster keymap/which-key response
 opt.mouse = "a"             -- Enable mouse support
+opt.fillchars:append { eob = " " } -- Hide ~ at the end of buffer
 
 -- Custom minimalist statusline
 function _G.simple_statusline()
