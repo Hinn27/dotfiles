@@ -10,6 +10,7 @@
 !/.config/nvim/
 !/.config/kitty/
 !/.config/niri/
+!/.config/noctalia/
 !/.config/starship.toml
 !/.config/fastfetch/
 !/.config/git/
