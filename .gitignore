@@ -11,6 +11,7 @@
 !/.config/kitty/
 !/.config/niri/
 !/.config/noctalia/
+!/System-Configs/
 !/.config/starship.toml
 !/.config/fastfetch/
 !/.config/git/

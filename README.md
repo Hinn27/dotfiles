@@ -55,6 +55,21 @@ dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
+## ⚡ Khôi phục cấu hình hệ thống (Optimization)
+Một số file tối ưu hiệu năng nằm ở `/etc/` được lưu tạm tại `~/System-Configs/`. Để áp dụng lại trên máy mới:
+
+```bash
+# 1. Copy cấu hình vào hệ thống
+sudo cp -r ~/System-Configs/etc/* /etc/
+
+# 2. Áp dụng Split Lock Mitigation ngay lập tức
+sudo sysctl -p /etc/sysctl.d/99-splitlock.conf
+
+# 3. Kích hoạt dịch vụ Scheduler (scx_lavd)
+sudo systemctl daemon-reload
+sudo systemctl enable --now scx_lavd
+```
+
 ## 📦 Danh sách các công cụ chính
 - **Shell:** Zsh (với Starship prompt)
 - **Editor:** Neovim (LazyVim base)
