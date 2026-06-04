@@ -1,0 +1,12 @@
+[Unit]
+Description=Sched-ext LAVD Scheduler (Performance Mode)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/scx_lavd --performance
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
