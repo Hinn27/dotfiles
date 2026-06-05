@@ -59,7 +59,7 @@ alias -- ll='eza -l --color=always --group-directories-first --icons'
 alias -- ls='eza -al --color=always --group-directories-first --icons'
 alias -- lt='eza -aT --color=always --group-directories-first --icons'
 alias -- mirror='sudo cachyos-rate-mirrors'
-alias -- update='paru -Syu; [ -x /usr/bin/flatpak ] && flatpak update -y'
+alias -- update='paru -Syu; [ -x /usr/bin/flatpak ] && flatpak update -y; /home/hinne/fix-damx.sh'
 alias -- v=nvim
 
 # Dotfiles management alias
