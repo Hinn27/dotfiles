@@ -11,7 +11,7 @@ IOC_KNOWN=$(grep -rE "atomic-lockfile|js-digest|arch-audit-fix" ~/.cache/yay ~/.
 IOC_DOWNLOADER=$(grep -rE "(curl|wget).*\|.*(bash|sh|python|node|perl)" ~/.cache/yay ~/.cache/paru 2>/dev/null)
 
 # 3. Quét hành vi: Obfuscation (Base64 hoặc Hex cực dài trong PKGBUILD)
-IOC_OBFUSCATION=$(grep -rE "[a-zA-Z0-9+/]{100,}" ~/.cache/yay ~/.cache/paru 2>/dev/null | grep "PKGBUILD")
+IOC_OBFUSCATION=$(grep -rE "[a-zA-Z0-9+/]{100,}" ~/.cache/yay ~/.cache/paru 2>/dev/null | grep "PKGBUILD" | grep -vE "(sums|sha[0-9]*|b2|md5)" | grep -vE "['\"][a-f0-9]{64,}['\"]")
 
 # 4. Quét hành vi: Tự ý cài systemd/cron lén lút
 IOC_PERSISTENCE=$(grep -rE "cp.*(/etc/systemd|/var/spool/cron|/etc/init.d)" ~/.cache/yay ~/.cache/paru 2>/dev/null)
