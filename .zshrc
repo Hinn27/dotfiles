@@ -62,5 +62,7 @@ alias -- mirror='sudo cachyos-rate-mirrors'
 alias -- update='paru -Syu; [ -x /usr/bin/flatpak ] && flatpak update -y; /home/hinne/fix-damx.sh'
 alias -- v=nvim
 
-# Dotfiles management alias
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+
+# Load personal aliases
+[[ -f ~/.zsh_aliases ]] && source ~/.zsh_aliases
