@@ -4,7 +4,7 @@ palette = "noctalia"
 add_newline = false
 command_timeout = 500
 
-format = "$os$directory$git_branch$git_status$character"
+format = "$os$directory$python$git_branch$git_status$character"
 
 [character]
 success_symbol = "> "
@@ -319,6 +319,11 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+
+
+
+
 
 
 
