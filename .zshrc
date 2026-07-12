@@ -49,3 +49,7 @@ fi
 # Aliases are managed in ~/.zsh_aliases
 [[ -f ~/.zsh_aliases ]] && source ~/.zsh_aliases
 
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/hinne/.local/bin:$PATH"

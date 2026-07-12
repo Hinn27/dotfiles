@@ -3,7 +3,7 @@ alias -- ..='cd ..'
 alias -- ...='cd ../..'
 alias -- ....='cd ../../../..'
 alias -- c='clear'
-alias -- cleanup='sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null; sudo pacman -Sc --noconfirm; [ -x /usr/bin/flatpak ] && flatpak uninstall --unused -y; sudo journalctl --vacuum-time=3d; rm -rf ~/.cache/noctalia-qs'
+alias -- cleanup='~/.local/bin/cleanup-system.sh'
 alias -- grep='grep --color=auto'
 alias -- jctl='journalctl -p 3 -xb'
 alias -- la='eza -a --color=always --group-directories-first --icons'
@@ -14,6 +14,7 @@ alias -- mirror='sudo cachyos-rate-mirrors'
 alias -- update='/home/hinne/secure-update.sh'
 alias -- v='nvim'
 alias -- dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias -- live='pnpm dlx live-server'
 
 # --- Functions ---
 

@@ -26,6 +26,11 @@
       "keyColor": "cyan"
     },
     {
+      "type": "kernel",
+      "key": "",
+      "keyColor": "white"
+    },
+    {
       "type": "shell",
       "key": "",
       "keyColor": "green"

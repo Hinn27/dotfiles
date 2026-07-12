@@ -1,36 +1,12 @@
--- ~/.config/nvim/lua/config/options.lua
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
 
-local opt = vim.opt
+vim.opt.expandtab = true   -- Tự động chuyển đổi ký tự Tab thực thành các khoảng trắng (Spaces)
+vim.opt.tabstop = 4        -- Độ rộng hiển thị của 1 ký tự Tab thực sự (bằng 4 khoảng trắng)
+vim.opt.shiftwidth = 4     -- Số khoảng trắng được thụt lề khi dùng các phím > hoặc <
+vim.opt.softtabstop = 4    -- Số khoảng trắng tương đương với 1 lần nhấn Tab khi gõ
 
-opt.number = true           -- Show line numbers
-opt.relativenumber = true   -- Relative line numbers
-opt.shiftwidth = 4          -- Size of an indent
-opt.tabstop = 4             -- Number of spaces tabs count for
-opt.expandtab = true        -- Use spaces instead of tabs
-opt.smartindent = true      -- Insert indents automatically
-opt.wrap = false            -- Disable line wrap
-opt.termguicolors = true    -- True color support
-opt.cursorline = true       -- Highlight the current line
-opt.ignorecase = true       -- Ignore case in search patterns
-opt.smartcase = true        -- Smart case matching
-opt.scrolloff = 8           -- Keep at least 8 lines above/below cursor
-opt.updatetime = 50         -- Faster completion
-opt.timeoutlen = 300        -- Faster keymap/which-key response
-opt.mouse = "a"             -- Enable mouse support
-opt.fillchars:append { eob = " " } -- Hide ~ at the end of buffer
+-- Cho phép Prettier format mà không cần file cấu hình (.prettierrc) trong dự án
+vim.g.lazyvim_prettier_needs_config = false
 
--- Custom minimalist statusline
-function _G.simple_statusline()
-  local cwd = vim.fn.fnamemodify(vim.fn.getcwd(), ":~") -- Get CWD with ~ for home
-  return table.concat({
-    " %f",                   -- File path
-    " %m%r%h%w",             -- Flags (modified, readonly, etc)
-    "%=",                    -- Right align separator
-    "[" .. cwd .. "]",       -- Current Working Directory
-    " %y ",                  -- FileType
-    "%l:%c ",                -- Line:Column
-    "%p%% ",                 -- Percentage
-  })
-end
-
-opt.statusline = "%!v:lua.simple_statusline()"
