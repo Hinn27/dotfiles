@@ -53,3 +53,7 @@ fi
 
 # Added by Antigravity CLI installer
 export PATH="/home/hinne/.local/bin:$PATH"
+
+# Qwen Code PATH block begin
+export PATH='/home/hinne/.local/bin':$PATH
+# Qwen Code PATH block end

@@ -1,5 +1,5 @@
     layout {
-        gaps 10 // Gap between windows
+        gaps 5 // Gap between windows
         center-focused-column "on-overflow" // Don’t auto-center focused column
 
         background-color "transparent" // <- needed for noctalia-shell to set wallpaper

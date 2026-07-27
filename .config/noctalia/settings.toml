@@ -70,182 +70,6 @@ volumeFeedbackSoundFile = ""
 volumeOverdrive = false
 volumeStep = 2
 
-# Bar Settings
-[bar]
-autoHideDelay = 500
-autoShowDelay = 150
-backgroundOpacity = 1.0
-barType = "floating"
-capsuleColorKey = "none"
-capsuleOpacity = 1.0
-contentPadding = 2
-density = "compact"
-displayMode = "always_visible"
-enableExclusionZoneInset = false
-fontScale = 1.0
-frameRadius = 12
-frameThickness = 8
-hideOnOverview = true
-marginHorizontal = 10
-marginVertical = 4
-middleClickAction = "none"
-middleClickCommand = ""
-middleClickFollowMouse = false
-mouseWheelAction = "workspace"
-mouseWheelWrap = true
-outerCorners = true
-position = "top"
-reverseScroll = true
-rightClickAction = "controlCenter"
-rightClickCommand = ""
-rightClickFollowMouse = false
-showCapsule = false
-showOnWorkspaceSwitch = true
-showOutline = false
-useSeparateOpacity = false
-widgetSpacing = 6
-
-# Center Widgets
-[[bar.widgets.center]]
-id = "Clock"
-clockColor = "none"
-customFont = ""
-formatHorizontal = "HH:mm ddd, dd - MM"
-formatVertical = "HH mm - dd MM"
-tooltipFormat = "HH:mm ddd, MMM dd"
-useCustomFont = false
-
-[[bar.widgets.center]]
-id = "Workspace"
-characterCount = 2
-colorizeIcons = false
-emptyColor = "secondary"
-enableScrollWheel = true
-focusedColor = "primary"
-followFocusedScreen = true
-fontWeight = "bold"
-groupedBorderOpacity = 1.0
-hideUnoccupied = true
-iconScale = 1.0
-labelMode = "index"
-occupiedColor = "secondary"
-pillSize = 0.7
-showApplications = false
-showApplicationsHover = true
-showBadge = false
-showLabelsOnlyWhenOccupied = true
-unfocusedIconsOpacity = 1.0
-
-# Left Widgets
-[[bar.widgets.left]]
-id = "Launcher"
-colorizeSystemIcon = "none"
-colorizeSystemText = "none"
-customIconPath = ""
-enableColorization = false
-icon = "rocket"
-iconColor = "none"
-useDistroLogo = false
-
-[[bar.widgets.left]]
-id = "plugin:clipper"
-
-[[bar.widgets.left]]
-id = "SystemMonitor"
-compactMode = true
-diskPath = "/"
-iconColor = "none"
-showCpuCores = false
-showCpuFreq = false
-showCpuTemp = false
-showCpuUsage = true
-showDiskAvailable = false
-showDiskUsage = false
-showDiskUsageAsPercent = false
-showGpuTemp = false
-showLoadAverage = false
-showMemoryAsPercent = false
-showMemoryUsage = true
-showNetworkStats = true
-showSwapUsage = false
-textColor = "none"
-useMonospaceFont = true
-usePadding = false
-
-[[bar.widgets.left]]
-id = "ActiveWindow"
-colorizeIcons = false
-hideMode = "hidden"
-maxWidth = 200
-scrollingMode = "hover"
-showIcon = true
-showText = true
-textColor = "none"
-useFixedWidth = false
-
-[[bar.widgets.left]]
-id = "MediaMini"
-compactMode = false
-hideMode = "hidden"
-hideWhenIdle = false
-maxWidth = 250
-panelShowAlbumArt = true
-scrollingMode = "hover"
-showAlbumArt = true
-showArtistFirst = true
-showProgressRing = true
-showVisualizer = false
-textColor = "none"
-useFixedWidth = false
-visualizerType = "linear"
-
-# Right Widgets
-[[bar.widgets.right]]
-id = "Tray"
-blacklist = []
-chevronColor = "none"
-colorizeIcons = false
-drawerEnabled = true
-hidePassive = false
-pinned = ["Keyboard - English (US)", "Lotus", "Input Method"]
-
-[[bar.widgets.right]]
-id = "NotificationHistory"
-hideWhenZero = false
-hideWhenZeroUnread = false
-iconColor = "none"
-showUnreadBadge = true
-unreadBadgeColor = "primary"
-
-[[bar.widgets.right]]
-id = "Battery"
-deviceNativePath = "__default__"
-displayMode = "graphic"
-hideIfIdle = false
-hideIfNotDetected = true
-showNoctaliaPerformance = true
-showPowerProfiles = true
-
-[[bar.widgets.right]]
-id = "Volume"
-displayMode = "onhover"
-iconColor = "none"
-middleClickCommand = "pwvucontrol || pavucontrol"
-textColor = "none"
-
-[[bar.widgets.right]]
-id = "Brightness"
-applyToAllMonitors = false
-displayMode = "onhover"
-iconColor = "none"
-textColor = "none"
-
-[[bar.widgets.right]]
-id = "plugin:arch-updater"
-
-[[bar.widgets.right]]
-id = "plugin:cloudflare-warp"
-
 # Brightness Settings
 [brightness]
 backlightDeviceMappings = []
@@ -382,7 +206,7 @@ allowPasswordWithFprintd = false
 animationDisabled = false
 animationSpeed = 1.0
 autoStartAuth = false
-avatarImage = "/home/hinne/.face"
+avatarImage = "/home/hinne/Pictures/pic/embe.jpg"
 boxRadiusRatio = 1.0
 clockFormat = "hh\\nmm"
 clockStyle = "custom"
@@ -695,3 +519,7 @@ wallhavenResolutionMode = "atleast"
 wallhavenResolutionWidth = ""
 wallhavenSorting = "relevance"
 wallpaperChangeMode = "random"
+
+[plugins."noctalia/mpvpaper"]
+hardware_decode = true
+mpv_options = "vd-lavc-fast profile=fast"
