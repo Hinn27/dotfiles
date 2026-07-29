@@ -10,3 +10,4 @@ vim.opt.softtabstop = 4    -- Số khoảng trắng tương đương với 1 l�
 -- Cho phép Prettier format mà không cần file cấu hình (.prettierrc) trong dự án
 vim.g.lazyvim_prettier_needs_config = false
 
+vim.opt.wrap = true -- Bật chế độ tự động xuống dòng (word wrap)
