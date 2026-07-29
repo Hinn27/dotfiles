@@ -57,3 +57,8 @@ export PATH="/home/hinne/.local/bin:$PATH"
 # Qwen Code PATH block begin
 export PATH='/home/hinne/.local/bin':$PATH
 # Qwen Code PATH block end
+
+# Run fastfetch on startup
+if [[ -t 1 ]] && command -v fastfetch >/dev/null; then
+  fastfetch
+fi
