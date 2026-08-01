@@ -1,21 +1,27 @@
 /*
 !/.zshrc
-# !/.bashrc
-# !/.bash_profile
 !/.zprofile
 !/.gitignore
 !/README.md
+
 !/.config/
 /.config/*
-!/.config/nvim/
+!/.config/btop/
+!/.config/easyeffects/
+!/.config/fastfetch/
+!/.config/fcitx5/
+!/.config/git/
+!/.config/gpu-screen-recorder/
 !/.config/kitty/
+!/.config/mpv/
 !/.config/niri/
 !/.config/noctalia/
-!/System-Configs/
+!/.config/nvim/
 !/.config/starship.toml
-!/.config/fastfetch/
-!/.config/git/
-!/.config/mpv/
+!/.config/yazi/
+
+!/System-Configs/
+
 **/.DS_Store
 **/node_modules/
 **/*.tmp
