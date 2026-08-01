@@ -27,7 +27,7 @@ output "eDP-1" {
 }
 
 blur {
-    passes 2
+    passes 3
 
     noise 0.04
 

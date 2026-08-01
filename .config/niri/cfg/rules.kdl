@@ -2,6 +2,7 @@
     geometry-corner-radius 30 // Set every window radius to 20
     clip-to-geometry true
     draw-border-with-background false
+    opacity 0.85
     background-effect {
         blur true
     }
@@ -27,6 +28,7 @@
 
 window-rule {
     match is-focused=true
+    opacity 0.93
     background-effect {
         blur true
     }
