@@ -1,3 +1,6 @@
+# Iris Autocomplete
+eval "$(iris init zsh)"
+
 typeset -U path cdpath fpath manpath
 
 # Standard Zsh completions
