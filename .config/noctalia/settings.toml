@@ -99,7 +99,7 @@ generationMethod = "tonal-spot"
 manualSunrise = "06:30"
 manualSunset = "18:30"
 monitorForColors = ""
-predefinedScheme = "Breeze"
+predefinedScheme = "Catppuccin Mocha"
 schedulingMode = "off"
 syncGsettings = true
 useWallpaperColors = false
@@ -212,7 +212,7 @@ clockFormat = "hh\\nmm"
 clockStyle = "custom"
 compactLockScreen = false
 dimmerOpacity = 0.21
-enableBlurBehind = true
+enableBlurBehind = false
 enableLockScreenCountdown = true
 enableLockScreenMediaControls = true
 enableShadows = false
@@ -473,7 +473,7 @@ fontDefault = "Adwaita Sans"
 fontDefaultScale = 1.0
 fontFixed = "monospace"
 fontFixedScale = 1.0
-panelBackgroundOpacity = 0.2
+panelBackgroundOpacity = 1.0
 panelsAttachedToBar = true
 scrollbarAlwaysVisible = true
 settingsPanelMode = "attached"
@@ -523,3 +523,6 @@ wallpaperChangeMode = "random"
 [plugins."noctalia/mpvpaper"]
 hardware_decode = true
 mpv_options = "vd-lavc-fast profile=fast"
+
+[shell.panel]
+transparency_mode = "solid"

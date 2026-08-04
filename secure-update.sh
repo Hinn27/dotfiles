@@ -27,7 +27,7 @@ if [ -n "$IOC_KNOWN" ] || [ -n "$IOC_DOWNLOADER" ] || [ -n "$IOC_OBFUSCATION" ] 
 fi
 
 echo "--- [2/3] Bắt đầu cập nhật hệ thống ---"
-paru -Syu
+yay -Syu
 
 echo "--- [3/3] Đang thực hiện dọn dẹp & fix lỗi ---"
 [ -x /usr/bin/flatpak ] && flatpak update -y

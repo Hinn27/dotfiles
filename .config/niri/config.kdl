@@ -6,6 +6,7 @@ include "./cfg/display.kdl"
 include "./cfg/layout.kdl"
 include "./cfg/rules.kdl"
 include "./cfg/misc.kdl"
+include "noctalia.kdl"
 
 spawn-sh-at-startup "fcitx5 -d"
 
@@ -26,10 +27,6 @@ output "eDP-1" {
     position x=-1920 y=0
 }
 
-blur {
-    passes 3
+// blur block disabled
 
-    noise 0.04
 
-    saturation 1.2000000000000002
-}
